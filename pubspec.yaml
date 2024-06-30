@@ -1,0 +1,202 @@
+name: grocery_store
+description: A new Flutter project.
+version: 1.1.12+13
+
+environment:
+     sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  agora_rtc_engine: ^5.2.0
+  animate_icons: ^2.0.0
+  animated_widgets: ^1.1.0
+  another_flushbar: ^1.12.30
+  app_settings: ^5.1.1
+  audio_waveforms: ^0.1.5+1
+  audioplayers: ^3.0.1
+  basic_utils: ^5.0.0
+  build_runner: ^2.3.2
+  cached_network_image: ^3.2.3
+  chewie: ^1.3.6
+  chip_list: ^2.3.3+8
+  cloud_firestore: ^4.9.2
+  cloud_functions: ^4.4.1
+  country_calling_code_picker: ^2.0.1
+  country_code_picker: ^2.0.2
+  country_list_pick: ^1.0.1+6
+  country_picker: ^2.0.17
+  conditional_builder_null_safety: ^0.0.6
+  day_picker: ^2.1.1
+  dio: ^5.4.0
+  dotted_border: ^2.0.0+2
+  firebase_analytics: ^10.5.0
+  firebase_auth: ^4.10.0
+  firebase_core: ^2.16.0
+  firebase_core_platform_interface: ^4.8.0
+  firebase_crashlytics: ^3.3.6
+  firebase_database: ^10.2.6
+  firebase_dynamic_links: ^5.3.6
+  firebase_messaging: ^14.6.8
+  firebase_pagination: ^3.0.0
+  firebase_phone_auth_handler: ^1.0.8
+  firebase_storage: ^11.2.7
+  flutter_background: ^1.2.0
+  flutter_bloc: ^8.1.1
+  flutter_callkit_incoming: ^2.0.1+2
+  flutter_credit_card: ^3.0.4
+  flutter_foreground_plugin:
+    git:
+      url: https://github.com/jja08111/flutter_foreground_service_plugin.git
+      ref: 8a09c7b0aeb9d31204147fe6ee126c8a52471e3a
+  flutter_foreground_task: ^3.5.2
+  flutter_image_slideshow: ^0.1.2
+  flutter_local_notifications: ^17.0.0
+  flutter_native_image: ^0.0.6+1
+  flutter_rating_bar: ^4.0.1
+  flutter_screenutil: ^5.9.0
+  flutter_share: ^2.0.0
+  flutter_slidable: ^2.0.0
+  flutter_smartlook: ^4.0.5
+  # flutter_stripe: ^3.2.0
+  flutter_svg: ^2.0.9
+  flutter_windowmanager: ^0.2.0
+  fluttertoast: ^8.1.1
+  font_awesome_flutter: ^10.2.1
+  google_fonts: ^4.0.4
+  group_radio_button: ^1.2.0
+  http: ^0.13.5
+  image_cropper: ^3.0.1
+  image_picker: ^0.8.6
+  intl_phone_field: null
+  intl_phone_number_input:
+    path: packages/intl_phone_number_input-develop
+  introduction_screen: ^3.0.1
+  jitsi_meet_wrapper: ^0.2.0+1
+  linkwell: ^2.0.6
+  lottie: ^2.6.0
+  multi_select_flutter: ^4.1.2
+  open_file: ^3.3.2
+  package_info_plus: null
+  path_provider: ^2.0.11
+  pay: ^1.0.11
+  pdf: ^3.8.4
+  permission_handler: ^10.2.0
+  pinput: ^3.0.1
+  record_mp3: ^3.0.0
+  share_plus: null
+  shared_preferences: ^2.0.15
+  shimmer: ^2.0.0
+  sizer: ^2.0.15
+  smooth_star_rating_null_safety: ^1.0.4+2
+  sms_autofill: ^2.2.0
+  stop_watch_timer: ^2.0.0
+  syncfusion_flutter_sliders: ^20.1.60
+  timelines: ^0.1.0
+  twilio_voice:
+    git:
+      url: https://github.com/FocalPointApps/beautTwillio.git
+      ref: master
+  url_launcher: ^6.1.7
+  uuid: ^3.0.7
+  video_player: ^2.4.8
+  video_thumbnail: ^0.5.3
+  voice_message_package: ^1.0.41
+  wakelock: ^0.6.2
+  webview_flutter: ^3.0.4
+  youtube_player_flutter: ^8.1.1
+  file_selector: ^1.0.3
+  uri_to_file: ^1.0.0
+  file_picker: ^5.2.10
+  hijri: ^3.0.0
+  in_app_review: ^2.0.8
+  appsflyer_sdk: ^6.13.0+2
+  readmore: ^3.0.0
+  google_sign_in: ^6.2.1
+  the_apple_sign_in: ^1.1.1
+  date_picker_plus:
+    path: packages/date_picker_plus-3.0.2
+  hexcolor: 3.0.1
+  dartz: ^0.10.1
+  intl: 
+  loading_indicator: ^3.1.1
+  easy_debounce: ^2.0.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/fonts/fontHellix/
+    - assets/icons/
+    - assets/mmn_icons/
+    - assets/mmn_images/
+    - assets/icons/icon/
+    - assets/icons/menu/
+    - lib/lang/arBeaut.json
+    - lib/lang/enBeaut.json
+    - assets/google_pay_payment_profile.json
+    - assets/apple_pay_payment_profile.json
+    - assets/lotifile/
+    - assets/sound/
+    - assets/call/
+
+  fonts:
+    - family: elMessiri
+      fonts:
+        - asset: assets/fonts/elMessiri-Regular.ttf
+    - family: fontHellix
+      fonts:
+        - asset: assets/fonts/fontHellix/Hellix-SemiBold.ttf
+    - family: KeepCalm
+      fonts:
+        - asset: assets/fonts/KeepCalm-Medium.ttf
+    - family: Restie
+      fonts:
+        - asset: assets/fonts/Restie.ttf
+
+    - family: Arial
+      fonts:
+        - asset: assets/fonts/Arial.ttf
+
+    - family: bukra
+      fonts:
+        - asset: assets/fonts/bukra-regular.ttf
+        - asset: assets/fonts/bukra-light.ttf
+        - asset: assets/fonts/bukra-bold.ttf
+          weight: 700
+        # - family: montserrat
+        # fonts:
+        #  - asset: assets/fonts/montserrat-regular.ttf
+        #   - asset: assets/fonts/montserrat-light.ttf
+        #  - asset: assets/fonts/montserrat-bold.ttf
+        # weight: 700
+    - family: Ithra
+      fonts:
+        - asset: assets/fonts/alfont_com_Ithra-Bold.ttf
+    - family: Ithralight
+      fonts:
+        - asset: assets/fonts/Ithra Light.ttf
+    - family: Montserratbold
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+    - family: Montserratmedium
+      fonts:
+        - asset: assets/fonts/Montserrat-Medium.ttf
+    - family: Montserratsemibold
+      fonts:
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+    - family: Montserratregular
+      fonts:
+        - asset: assets/fonts/montserrat-regular.ttf
+    - family: InterMedium
+      fonts:
+        - asset: assets/fonts/Inter-Medium.ttf
+    - family: InterRegular
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/open_sans.ttf
