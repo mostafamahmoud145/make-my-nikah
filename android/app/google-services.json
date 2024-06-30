@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "778423108071",
+    "firebase_url": "https://make-my-nikah-d49f5-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "make-my-nikah-d49f5",
+    "storage_bucket": "make-my-nikah-d49f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778423108071:android:cdb03ce6c9ed414a7b3d42",
+        "android_client_info": {
+          "package_name": "com.app.MakeMyNikah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778423108071-q7e2hhmnl0qhfckbgr9a1i9tpgplkrtm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbOkyCEXt-pdDoxVNttNVnsfmUWY2IzfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778423108071-q7e2hhmnl0qhfckbgr9a1i9tpgplkrtm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778423108071-fparobi7je3ec7dtep7l9ocu8iosonmr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.MakeMyNikah"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

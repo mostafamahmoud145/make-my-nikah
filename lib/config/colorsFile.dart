@@ -1,0 +1,137 @@
+import 'dart:ui';
+import 'package:flutter/material.dart';
+import 'package:hexcolor/hexcolor.dart';
+
+class AppColors {
+  static const green = Color(0xFFA5D752);
+  static const yellow = Color(0xFFFFD503);
+  static const black = Color.fromRGBO(32, 32, 32, 1.0);
+  static const lightGray = Color.fromRGBO(32, 32, 32, 0.09);
+
+  static const white = Color(0xFFFFFFFF);
+  static const orange = Color(0xFFFFFFFF);
+  static const pink = Color.fromRGBO(250, 186, 181, 1.0); //Color(0xFF7b6c94);
+  static const lightPink = Color(0xFFF5F3F7);
+  static const grey = Color(0xFF9E9E9E);
+  static const lightGrey = Color(0xFFE8E8E8);
+  static const brown = Color.fromRGBO(220, 186, 78, 1.0);
+  static const shareColor = Color(0xFFF6D4DE);
+  static const moveColor = Color(0xFFE6D9FC);
+  static const shadoColor = Color(0xFF7B6C96);
+  static const linear1 = Color(0xFFA794CA);
+  static const linear2 = Color(0xFF7B6C96);
+  static const chatButton = Color(0xFFA794CA);
+  static const red = Color(0xFFFF0000);
+  static const greydark = Color(0xFF9E9E9E);
+  static const lightPink1 = Color(0x1a000000);
+  static const blue = Color(0xff2381c0);
+  static const lightGrey2 = Color(0xffe4e1e1);
+  static const lightred = Color(0xfffaa7a1);
+  static const lightGrey1 = Color(0xffafafaf);
+  static const pink1 = Color.fromRGBO(255, 245, 244, 1.0);
+  static const green1 = Color.fromRGBO(149, 221, 191, 1.0);
+  static const blacklight = Color.fromRGBO(102, 90, 95, 1.0);
+  static const black2 = Color.fromRGBO(78, 78, 78, 1.0);
+  static const pink3 = Color(0xffcd3d63);
+  static const grey1 = Color(0xff707070);
+  static const black3 = Color.fromRGBO(63, 63, 63, 1.0);
+  static const black4 = Color.fromRGBO(112, 112, 112, 1.0);
+  static const white1 = Color.fromRGBO(255, 255, 255, 1.0);
+  static const white2 = Color.fromRGBO(250, 250, 250, 1.0);
+  static const grey2 = Color.fromRGBO(158, 158, 158, 1.0);
+  static const grey3 = Color.fromRGBO(175, 175, 175, 1.0);
+  static const grey4 = Color.fromRGBO(228, 225, 225, 1.0);
+  static const grey5 = Color.fromRGBO(203, 203, 203, 1.0);
+  static const white3 = Color.fromRGBO(237, 237, 237, 1.0);
+  static const greenlite = Color.fromRGBO(145, 241, 70, 1.0);
+  static const grey6 = Color.fromRGBO(147, 147, 147, 1.0);
+  static const gren = Color.fromRGBO(164, 219, 200, 1.0);
+  static const greendark = Color.fromRGBO(78, 166, 129, 1.0);
+  static const greendark2 = Color.fromRGBO(129, 198, 169, 1.0);
+  static const red1 = Color.fromRGBO(255, 47, 101, 1.0);
+  static const pink2 = Color.fromRGBO(207, 0, 54, 1.0);
+  static const cherry2 = Color.fromRGBO(207, 0, 54, 0.5);
+  static const pink5 = Color.fromRGBO(209, 0, 52, 1.0);
+  static const reddark = Color.fromRGBO(224, 87, 123, 1.0);
+  static const reddark2 = Color.fromRGBO(207, 0, 54, 1.0);
+  static const whitered = Color.fromRGBO(207, 0, 54, 0.08);
+  static const blackColor = Color.fromRGBO(48, 48, 48, 1.0);
+  static const balck2 = Color.fromRGBO(32, 32, 32, 1.0);
+  static const balck3 = Color.fromRGBO(30, 30, 30, 1.0);
+  static const time = Color.fromRGBO(247, 247, 247, 1.0);
+  static const chat = Color.fromRGBO(249, 231, 236, 1.0);
+  static const otherChat = Color.fromRGBO(246, 246, 246, 1.0);
+  static const chatTime = Color.fromRGBO(167, 165, 165, 1.0);
+  static const tabBar1 = Color(0xffC9C9C9);
+  static const tabBar = Color.fromRGBO(248, 248, 248, 1.0);
+  static const darkGrey = Color.fromRGBO(115, 115, 115, 1.0);
+  static const black1 = Color.fromRGBO(32, 32, 32, 1.0);
+  static const black7 = Color.fromRGBO(0, 0, 0, 1.0);
+  static const red2 = Colors.red;
+  static const redAccent = Colors.redAccent;
+  static const grayShade300 = Color.fromRGBO(224, 224, 224, 1.0);
+  static const lightPink2 = Color.fromRGBO(207, 0, 54, 0.05);
+  static const green2 = Color.fromRGBO(18, 223, 95, 1);
+  static const lightGrey4 = Color.fromRGBO(243, 245, 247, 1);
+  static const lightGrey5 = Color.fromRGBO(175, 175, 175, 1);
+  static const lightGrey11 = Color(0xfffafafa);
+  static const lightGrey6 = Color.fromRGBO(211, 211, 211, 1.0);
+  static const lightGrey7 = Color.fromRGBO(116, 116, 116, 1.0);
+  static const lightGrey8 = Color.fromRGBO(236, 236, 236, 1.0);
+  static const primary2 = Color.fromRGBO(252, 44, 98, 1.0);
+  static const drawerItemColor = Color.fromRGBO(249, 250, 251, 1.0);
+
+  static const greyDark2 = Color(0xff303030);
+
+  static const lightGrey9 = Color.fromRGBO(249, 250, 251, 1);
+  static Color Gradient_Color1 = Color(0xFFD169B4);
+  static Color Gradient_Color2 = Color(0xFF863972);
+  static const pinkShadowColor = Color.fromRGBO(187, 48, 149, 0.14);
+  static const pinkShadowColor2 = Color.fromRGBO(156, 57, 129, 0.18);
+  static const primaryDark = Color.fromRGBO(156, 57, 130, 1);
+  static const pureBlack = Color.fromRGBO(0, 0, 0, 1);
+  static const warmPurple = Color.fromRGBO(156, 57, 129, 0.18);
+  static const cherry = const Color(0xffcf0036);
+  static const primary = const Color(0xffff2f65);
+  static const shadowPink = Color.fromRGBO(250, 167, 161, 0.18);
+  static const GradientColor1 = Color.fromRGBO(247, 40, 94, 1);
+  static const GradientColor2 = Color.fromRGBO(217, 9, 63, 1);
+  static const yellow2 = Color.fromRGBO(255, 213, 8, 1);
+  static const white4 = Color.fromRGBO(245, 245, 245, 1.0);
+  static const shadowPink2 = Color.fromRGBO(207, 0, 54, 0.05);
+  static const greenAccent1 = Color.fromRGBO(18, 233, 95, 1);
+  static const greenAccent2 = Color(0x2412df5f);
+  static const black5 = Color.fromRGBO(32, 32, 32, 0.05);
+  static const GradientColor3 = Color.fromRGBO(255, 47, 101, 1);
+  static const GradientColor4 = Color.fromRGBO(214, 7, 61, 1);
+  static const blackShadow = Color.fromRGBO(48, 48, 48, 0.08);
+  static const balckColor2 = Color.fromRGBO(32, 32, 32, 1);
+  static const yellow3 = Color.fromRGBO(255, 188, 0, 1);
+  static const lightPink3 = Color.fromRGBO(207, 0, 54, 0.1);
+  static const lightGrey10 = Color.fromRGBO(105, 105, 105, 0.2);
+  static const darkOrange = Color.fromRGBO(252, 198, 89, 1.0);
+  static const darkGrey1 = Color.fromRGBO(187, 186, 189, 1.0);
+// The last parameter 1.0 means fully opaque
+  // The 1.0 at the end signifies full opacity
+
+  static const gold = Color.fromRGBO(220, 186, 78, 1);
+  static const lightGrey3 = Color.fromRGBO(0, 0, 0, 0.2);
+
+  static const snackBarColor = Color.fromRGBO(76, 176, 80, 1);
+
+  static const pink4 = Color.fromRGBO(249, 205, 201, 1);
+  static const redShade500 = Color.fromRGBO(244, 67, 54, 1);
+  static const orangeAccent = Color.fromRGBO(255, 171, 64, 1);
+  static const black32 = Color.fromRGBO(32, 32, 32, 1);
+  static const Accentgreen3 = Color.fromRGBO(18, 233, 95, 1);
+  static const red3 = Color.fromRGBO(234, 33, 33, 1);
+
+  static const dark_red = Color.fromRGBO(234, 33, 33, 1);
+  static const labelColor = Color(0xffCF0036);
+  static const greyShadowColor = Color.fromRGBO(207, 207, 207, .16);
+  static const greyFontColor = Color.fromRGBO(201, 201, 201, 1);
+  static const darkGrey3 = Color.fromRGBO(112, 112, 112, 1);
+  static const grey7 = Color.fromRGBO(184, 180, 180, 1);
+  static final CWG = HexColor('#202020');
+// Color.fromRGBO(211, 211, 211,1.0);
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>778423108071-tdd0akf2blgl0nssmettm64j17k4cfkp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.778423108071-tdd0akf2blgl0nssmettm64j17k4cfkp</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>778423108071-3jnoa2k10s8gim28liq8ass5cu4596sq.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA3Zp6J3zG3JgNlTEJgOwkWO7_vjp9z4ns</string>
+	<key>GCM_SENDER_ID</key>
+	<string>778423108071</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.app.MakeMyNikahApp</string>
+	<key>PROJECT_ID</key>
+	<string>make-my-nikah-d49f5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>make-my-nikah-d49f5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:778423108071:ios:b312df573b3f55d47b3d42</string>
+	<key>DATABASE_URL</key>
+	<string>https://make-my-nikah-d49f5-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>

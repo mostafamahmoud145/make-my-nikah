@@ -1,0 +1,87 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.MakeMyNikah"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission  android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission  android:name="android.permission.INTERNET"  />
+    <uses-permission  android:name="android.permission.RECORD_AUDIO"  />
+    <uses-permission  android:name="android.permission.CAMERA"  />
+    <uses-permission  android:name="android.permission.MODIFY_AUDIO_SETTINGS"  />
+    <uses-permission  android:name="android.permission.ACCESS_NETWORK_STATE"  />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- The Agora SDK requires Bluetooth permissions in case users are using Bluetooth devices.-->
+    <uses-permission  android:name="android.permission.BLUETOOTH"  />
+    <application
+
+        tools:replace="android:label"
+        android:name="${applicationName}"
+        android:label="Nikah" 
+        android:icon="@mipmap/ic_launcher"
+        android:usesCleartextTraffic="true">
+        
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_stat_name" />
+        <meta-data android:name="com.dieam.reactnativepushnotification.notification_color" android:resource="@android:color/white"/>
+        <activity android:name=".MainActivity" android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme" android:exported="true"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode" android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.google.firebase.messaging.default_notification_channel_id" android:resource="@mipmap/ic_launcher" android:value="high_importance_channel" />
+
+        </activity>
+        <activity android:name="com.yalantis.ucrop.UCropActivity" android:screenOrientation="portrait" android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+
+        <!-- Don't delete the meta-data below.
+             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+
+        <meta-data android:name="flutterEmbedding" android:value="2" />
+        <service
+            android:name=".IncomingCallNotificationService"
+            android:exported="true"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="ACTION_ACCEPTED" />
+                <action android:name="ACTION_REJECTED" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.twilio.twilio_voice.fcm.VoiceFirebaseMessagingService"
+            android:stopWithTask="false" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <activity android:exported="true"
+            android:name="io.flutter.embedding.android.FlutterActivity">
+        </activity>
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+        <activity android:name="com.facebook.FacebookActivity"
+            android:exported="true"  android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

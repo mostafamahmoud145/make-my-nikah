@@ -1,0 +1,38 @@
+{
+  "provider": "google_pay",
+  "data": {
+    "environment": "PRODUCTION",
+    "apiVersion": 2,
+    "apiVersionMinor": 0,
+    "allowedPaymentMethods": [
+      {
+        "type": "CARD",
+        "tokenizationSpecification": {
+          "type": "PAYMENT_GATEWAY",
+          "parameters": {
+            "gateway": "stripe",
+            "stripe:version": "2020-08-27",
+            "stripe:publishableKey": "pk_live_51LGf3zIZ9vncbvUGMeV92gCIdNJzyBX933ayRqrCTSy1DvUDIuYMGCCuBSl1p0qqfm6dUemwzWa8NXzPHft6kuHw00SYLyNXZ1"
+          }
+        },
+        "parameters": {
+          "allowedCardNetworks": ["VISA", "MASTERCARD"],
+          "allowedAuthMethods": ["PAN_ONLY", "CRYPTOGRAM_3DS"],
+          "billingAddressRequired": true,
+          "billingAddressParameters": {
+            "format": "FULL",
+            "phoneNumberRequired": true
+          }
+        }
+      }
+    ],
+    "merchantInfo": {
+      "merchantId": "258191754546900320",
+      "merchantName": "Focal Point Apps FZE LLC"
+    },
+    "transactionInfo": {
+      "countryCode": "AE",
+      "currencyCode": "USD"
+    }
+  }
+}
